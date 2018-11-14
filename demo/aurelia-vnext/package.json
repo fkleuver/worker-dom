@@ -1,0 +1,20 @@
+{
+  "name": "aurelia-vnext",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@aurelia/jit": "dev",
+    "@aurelia/kernel": "dev",
+    "@aurelia/runtime": "dev"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "html-loader": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack-cli": "latest",
+    "webpack": "latest"
+  }
+}
